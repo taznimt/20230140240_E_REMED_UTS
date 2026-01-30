@@ -46,7 +46,6 @@ Kolom: `id`, `user_id`, `book_id`, `borrow_date`, `latitude`, `longitude`, `crea
    ```env
    DB_HOST=localhost
    DB_USER=root
-   DB_PASSWORD=your_password
    DB_NAME=library_geo
    DB_PORT=3306
    PORT=3000
@@ -124,6 +123,7 @@ Business Logic:
 
 **User Mode**  
 ![Halaman User](ss/Halaman%20User.png)
+![Berhasil meminjam buku](ss/berhasil%20meminjam%20buku.png)
 
 **Admin Mode**  
 ![Halaman Admin](ss/Halaman%20Admin.png)
@@ -151,7 +151,7 @@ Business Logic:
 **POST pinjam buku (User)**  
 ![Header pinjam buku](ss/header%20pinjam%20buku.png)  
 ![Pinjam buku](ss/pinjam%20buku.png)  
-![Berhasil meminjam buku](ss/berhasil%20meminjam%20buku.png)
+
 
 ---
 
