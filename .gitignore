@@ -1,0 +1,41 @@
+# ===== Node =====
+**/node_modules/
+**/.pnp/
+**/.pnp.js
+
+# ===== Env (jangan pernah push) =====
+**/.env
+**/.env.*
+!**/.env.example
+
+# ===== Logs =====
+**/*.log
+**/logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== Build output =====
+**/dist/
+**/build/
+**/out/
+**/coverage/
+
+# ===== Vite cache =====
+**/.vite/
+
+# ===== OS / Editor =====
+**/.DS_Store
+**/Thumbs.db
+**/.vscode/
+**/.idea/
+**/*.swp
+
+# ===== Sequelize / DB local (kalau ada) =====
+**/*.sqlite
+**/*.sqlite3
+
+# ===== Keep screenshots tracked (folder ss untuk README) =====
+!ss/
+!ss/**
